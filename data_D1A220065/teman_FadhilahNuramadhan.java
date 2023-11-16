@@ -17,27 +17,27 @@ public class teman_FadhilahNuramadhan {
         noHP = hp;
     }
 
-    public void ambilNama(String nm) {
-        nama = nm;
-    }
-
-    public void ambilUmur(int um) {
-        umur = um;
-    }
-
-    public void ambilNoHP(String hp) {
-        noHP = hp;
-    }
-
-    public String namanyaAdalah() {
+    public String ambilNama() {
         return nama;
     }
 
-    public int umurnyaAdalah() {
+    public int ambilUmur() {
         return umur;
     }
 
-    public String noHPnyaAdalah() {
+    public String ambilnoHP() {
         return noHP;
+    }
+
+    public void memberiNama(String nm) {
+        nama = nm;
+    }
+
+    public void memberiUmur(int um) {
+        umur = um;
+    }
+
+    public void memberinoHP(String hp) {
+        noHP = hp;
     }
 }
